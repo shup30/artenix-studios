@@ -10,13 +10,13 @@ import {
 export default class navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img className="artenix-logo" src="logo.png" alt="artenix-logo" />
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container">
+          <a className="navbar-brand" href="#">
+            <img classNameName="artenix-logo" src="logo.png" alt="artenix-logo" />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -24,57 +24,57 @@ export default class navbar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav artenix-navbar mr-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+            <ul className="navbar-nav artenix-navbar mr-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#about">
                   About Us
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#services">
                   Services
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">
                   Contact Us
                 </a>
               </li>
             </ul>
-            <ul class="navbar-nav artenix-navbar ml-5 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+            <ul className="navbar-nav artenix-navbar ml-5 mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   <FaFacebook />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaTwitter />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaLinkedin />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaPinterest />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   <FaInstagram />
                 </a>
               </li>

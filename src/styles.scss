@@ -26,7 +26,7 @@
   }
 }
 
-.services {
+.page {
   background-image: url("./background.png");
 }
 
@@ -43,9 +43,43 @@
   }
 }
 
+.contact-box {
+  padding: 5%;
+  background-color: #000;
+  color: #fff;
+  h5 {
+    color: #e48632;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid #e48632;
+  }
+}
+
+.submit-button {
+  background-color: #e48632;
+}
+
 hr {
-    display: block;
-    border-top: 6px solid #e48632;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  border-top: 6px solid #e48632;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.about-box {
+  h4 {
+    color: #fff;
+    text-align: center;
+  }
+  padding: 2%;
+  margin: 1%;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-icon {
+  width: 100px;
 }

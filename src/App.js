@@ -1,8 +1,9 @@
 import "./styles.scss";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
-import Services from "./components/services";
 import About from "./components/about";
+import Services from "./components/services";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -13,11 +14,15 @@ function App() {
       <div className="banner">
         <Banner />
       </div>
-      <div className="services">
+      <div className="page" id="about">
+        <About />
+      </div>
+      <div className="page" id="services">
         <Services />
       </div>
-      <div className="services">
-        <About />
+
+      <div className="page" id="contact">
+        <Contact />
       </div>
     </div>
   );
