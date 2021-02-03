@@ -8,15 +8,29 @@
 
 .artenix-navbar {
   margin-right: 10%;
+  justify-content: center !important;
 }
 
 .banner {
   background-color: #000;
 }
 
+.icon-navbar {
+  @media (max-width: 992px) {
+    .icon-navbar {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+}
+
 .banner-image {
   width: 100%;
-  height: 50rem !important;
+  height: 50rem;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .banner-text {

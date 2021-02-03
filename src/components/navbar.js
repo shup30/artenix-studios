@@ -52,7 +52,7 @@ export default class navbar extends Component {
                 </a>
               </li>
             </ul>
-            <ul className="navbar-nav artenix-navbar ml-5 mb-2 mb-lg-0">
+            <ul className="navbar-nav icon-navbar ml-5 mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   <FaFacebook />
