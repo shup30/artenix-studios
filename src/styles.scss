@@ -4,6 +4,9 @@
 
 .artenix-logo {
   width: 90%;
+  @media only screen and (max-width: 992px) {
+    width: 75%;
+  }
 }
 
 .artenix-navbar {
@@ -13,15 +16,6 @@
 
 .banner {
   background-color: #000;
-}
-
-.icon-navbar {
-  @media (max-width: 991px) {
-    .icon-navbar {
-      flex-direction: row !important;
-      justify-content: space-between !important;
-    }
-  }
 }
 
 .banner-image {
@@ -52,6 +46,9 @@
   padding: 2%;
   background-color: #000;
   color: #fff;
+  @media (max-width: 991px) {
+    padding: 10%;
+  }
   h5 {
     color: #e48632;
   }
@@ -61,6 +58,9 @@
   padding: 5%;
   background-color: #000;
   color: #fff;
+  @media (max-width: 991px) {
+    padding: 10%;
+  }
   h5 {
     color: #e48632;
   }
@@ -92,10 +92,22 @@ hr {
     text-align: center;
   }
   padding: 2%;
+  @media (max-width: 991px) {
+    padding: 10%;
+  }
   background-color: #000;
   color: #fff;
 }
 
 .about-icon {
   width: 100px;
+}
+
+#social-icons {
+  .navbar-nav {
+    @media only screen and (max-width: 992px) {
+      flex-direction: row !important;
+      justify-content: space-between !important;
+    }
+  }
 }

@@ -6,7 +6,7 @@ import {
   FaPinterest,
   FaInstagram,
 } from "react-icons/fa";
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
 
 export default class navbar extends Component {
   render() {
@@ -53,33 +53,35 @@ export default class navbar extends Component {
                 </a>
               </li>
             </ul>
-            <ul className="navbar-nav icon-navbar ml-5 mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  <FaFacebook />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <FaTwitter />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <FaLinkedin />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <FaPinterest />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <FaInstagram />
-                </a>
-              </li>
-            </ul>
+            <section id="social-icons">
+              <ul className="navbar-nav ml-5 mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <FaFacebook />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    <FaTwitter />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    <FaLinkedin />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    <FaPinterest />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    <FaInstagram />
+                  </a>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
       </nav>
