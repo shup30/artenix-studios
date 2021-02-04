@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/artenix-studios/static/css/main.1d7efc30.chunk.css",
-    "main.js": "/artenix-studios/static/js/main.728c5a5a.chunk.js",
-    "main.js.map": "/artenix-studios/static/js/main.728c5a5a.chunk.js.map",
-    "runtime-main.js": "/artenix-studios/static/js/runtime-main.8ff58f70.js",
-    "runtime-main.js.map": "/artenix-studios/static/js/runtime-main.8ff58f70.js.map",
-    "static/css/2.dea486e8.chunk.css": "/artenix-studios/static/css/2.dea486e8.chunk.css",
-    "static/js/2.efa3ce75.chunk.js": "/artenix-studios/static/js/2.efa3ce75.chunk.js",
-    "static/js/2.efa3ce75.chunk.js.map": "/artenix-studios/static/js/2.efa3ce75.chunk.js.map",
-    "static/js/3.fa2f5a5b.chunk.js": "/artenix-studios/static/js/3.fa2f5a5b.chunk.js",
-    "static/js/3.fa2f5a5b.chunk.js.map": "/artenix-studios/static/js/3.fa2f5a5b.chunk.js.map",
+    "main.js": "/artenix-studios/static/js/main.ba2f5bb4.chunk.js",
+    "main.js.map": "/artenix-studios/static/js/main.ba2f5bb4.chunk.js.map",
+    "runtime-main.js": "/artenix-studios/static/js/runtime-main.f91af34c.js",
+    "runtime-main.js.map": "/artenix-studios/static/js/runtime-main.f91af34c.js.map",
+    "static/css/2.79c08235.chunk.css": "/artenix-studios/static/css/2.79c08235.chunk.css",
+    "static/js/2.00d70cdb.chunk.js": "/artenix-studios/static/js/2.00d70cdb.chunk.js",
+    "static/js/2.00d70cdb.chunk.js.map": "/artenix-studios/static/js/2.00d70cdb.chunk.js.map",
+    "static/js/3.3f318e30.chunk.js": "/artenix-studios/static/js/3.3f318e30.chunk.js",
+    "static/js/3.3f318e30.chunk.js.map": "/artenix-studios/static/js/3.3f318e30.chunk.js.map",
     "index.html": "/artenix-studios/index.html",
-    "static/css/2.dea486e8.chunk.css.map": "/artenix-studios/static/css/2.dea486e8.chunk.css.map",
+    "static/css/2.79c08235.chunk.css.map": "/artenix-studios/static/css/2.79c08235.chunk.css.map",
     "static/css/main.1d7efc30.chunk.css.map": "/artenix-studios/static/css/main.1d7efc30.chunk.css.map",
-    "static/js/2.efa3ce75.chunk.js.LICENSE.txt": "/artenix-studios/static/js/2.efa3ce75.chunk.js.LICENSE.txt",
+    "static/js/2.00d70cdb.chunk.js.LICENSE.txt": "/artenix-studios/static/js/2.00d70cdb.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/artenix-studios/static/media/background.67c57a7a.png",
     "static/media/home1.0d8a0cac.png": "/artenix-studios/static/media/home1.0d8a0cac.png",
     "static/media/home2.46a6b05f.png": "/artenix-studios/static/media/home2.46a6b05f.png",
@@ -23,10 +23,10 @@
     "static/media/logo.5c8b26db.png": "/artenix-studios/static/media/logo.5c8b26db.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ff58f70.js",
-    "static/css/2.dea486e8.chunk.css",
-    "static/js/2.efa3ce75.chunk.js",
+    "static/js/runtime-main.f91af34c.js",
+    "static/css/2.79c08235.chunk.css",
+    "static/js/2.00d70cdb.chunk.js",
     "static/css/main.1d7efc30.chunk.css",
-    "static/js/main.728c5a5a.chunk.js"
+    "static/js/main.ba2f5bb4.chunk.js"
   ]
 }
