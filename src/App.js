@@ -1,9 +1,9 @@
-import "./styles.scss";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import About from "./components/about";
 import Services from "./components/services";
 import Contact from "./components/contact";
+import "./styles.scss";
 
 function App() {
   return (

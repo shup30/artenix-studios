@@ -6,6 +6,7 @@ import {
   FaPinterest,
   FaInstagram,
 } from "react-icons/fa";
+import logo from "../images/logo.png"
 
 export default class navbar extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class navbar extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img classNameName="artenix-logo" src="logo.png" alt="artenix-logo" />
+            <img className="artenix-logo" src={logo} alt="artenix-logo" />
           </a>
           <button
             className="navbar-toggler"

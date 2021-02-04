@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import vision from "../images/vision.png";
+import mission from "../images/mission.png";
+import philosophy from "../images/philosophy.png";
+import values from "../images/values.png";
 
 export default class services extends Component {
   render() {
@@ -74,77 +78,79 @@ export default class services extends Component {
                 standards.
               </p>
             </div>
+          </div>
+        </div>
 
-            <div className="container mt-5">
-              <div className="row">
-                <div className="col about-box">
-                  <div className="row justify-content-center">
-                    <h4>VISION</h4>
-                  </div>
-                  <div className="row justify-content-center mt-5">
-                    {" "}
-                    <img className="about-icon" src="vision.png" />
-                  </div>
-                  <div className="row mt-5">
-                    <p>
-                      Over The Years we have significantly focused on designing
-                      high quality games and developing them, we wish to augment
-                      these services manifold to serve a bigger fraternity of
-                      game developers in India and several other continents and
-                      countries across the Globe.
-                    </p>
-                  </div>
-                </div>
-                <div className="col about-box">
-                  <div className="row justify-content-center">
-                    <h4>MISSION</h4>
-                  </div>
-                  <div className="row justify-content-center mt-5">
-                    {" "}
-                    <img className="about-icon" src="mission.png" />
-                  </div>
-                  <div className="row mt-5">
-                    <p>
-                      We propose to integrate best of the resources avillable to
-                      deliver quality gaming solutions and that too at
-                    </p>
-                  </div>
-                </div>
-                <div className="col about-box">
-                  <div className="row justify-content-center">
-                    <h4>OUR PHILOSOPHY</h4>
-                  </div>
-                  <div className="row justify-content-center mt-5">
-                    {" "}
-                    <img className="about-icon" src="philosophy.png" />
-                  </div>
-                  <div className="row mt-5">
-                    <p>
-                      Art Enix Studios belives in continuous improvement
-                      process. This has enabled it to maintain its cutting edge
-                      position on process and pipeline development.
-                    </p>
-                  </div>
-                </div>
-                <div className="col about-box">
-                  <div className="row justify-content-center">
-                    <h4>VALUES</h4>
-                  </div>
-                  <div className="row justify-content-center mt-5">
-                    {" "}
-                    <img className="about-icon" src="values.png" />
-                  </div>
-                  <div className="row mt-5">
-                    <p>
-                      We see ourseleves to be Top notch gaming service provider
-                      globally and also an innovator in the field of gaming and
-                      animation.
-                    </p>
-                  </div>
-                </div>
+        <div className="container mt-5">
+          <div className="row">
+            <div className="col-md-3 about-box">
+              <div className="row justify-content-center">
+                <h4>VISION</h4>
+              </div>
+              <div className="row justify-content-center mt-5">
+                {" "}
+                <img className="about-icon" src={vision} />
+              </div>
+              <div className="row mt-5">
+                <p>
+                  Over The Years we have significantly focused on designing high
+                  quality games and developing them, we wish to augment these
+                  services manifold to serve a bigger fraternity of game
+                  developers in India and several other continents and countries
+                  across the Globe.
+                </p>
               </div>
             </div>
-            
+
+            <div className="col-md-3 about-box">
+              <div className="row justify-content-center">
+                <h4>MISSION</h4>
+              </div>
+              <div className="row justify-content-center mt-5">
+                {" "}
+                <img className="about-icon" src={mission} />
+              </div>
+              <div className="row mt-5">
+                <p>
+                  We propose to integrate best of the resources avillable to
+                  deliver quality gaming solutions and that too at
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-3 about-box">
+              <div className="row justify-content-center">
+                <h4>OUR PHILOSOPHY</h4>
+              </div>
+              <div className="row justify-content-center mt-5">
+                {" "}
+                <img className="about-icon" src={philosophy} />
+              </div>
+              <div className="row mt-5">
+                <p>
+                  Art Enix Studios belives in continuous improvement process.
+                  This has enabled it to maintain its cutting edge position on
+                  process and pipeline development.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-3 about-box">
+              <div className="row justify-content-center">
+                <h4>VALUES</h4>
+              </div>
+              <div className="row justify-content-center mt-5">
+                {" "}
+                <img className="about-icon" src={values} />
+              </div>
+              <div className="row mt-5">
+                <p>
+                  We see ourseleves to be Top notch gaming service provider
+                  globally and also an innovator in the field of gaming and
+                  animation.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import home1 from "../images/home1.png";
+import home2 from "../images/home2.png";
+import home3 from "../images/home3.png";
+import home4 from "../images/home4.png";
+import home5 from "../images/home5.png";
 
 export default class banner extends Component {
   render() {
     return (
       <div>
-        <Carousel >
+        <Carousel>
           <Carousel.Item>
-            <img className="banner-image" src="home1.png" alt="First slide" />
+            <img src={home1} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
                 {" "}
@@ -16,8 +21,7 @@ export default class banner extends Component {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="banner-image" src="home2.png" alt="Third slide" />
-
+            <img src={home2} className="banner-image" alt="second slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
                 {" "}
@@ -26,8 +30,7 @@ export default class banner extends Component {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="banner-image" src="home3.png" alt="Third slide" />
-
+            <img src={home3} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
                 {" "}
@@ -36,8 +39,7 @@ export default class banner extends Component {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="banner-image" src="home4.png" alt="Third slide" />
-
+            <img src={home4} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
                 {" "}
@@ -46,8 +48,7 @@ export default class banner extends Component {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="banner-image" src="home5.png" alt="Third slide" />
-
+            <img src={home5} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
                 {" "}
