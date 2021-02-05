@@ -11,7 +11,7 @@ export default class banner extends Component {
     return (
       <div>
         <Carousel>
-          <Carousel.Item>
+          <Carousel.Item interval={5000}>
             <img src={home1} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
@@ -20,7 +20,7 @@ export default class banner extends Component {
               </h1>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={5000}>
             <img src={home2} className="banner-image" alt="second slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
@@ -29,7 +29,7 @@ export default class banner extends Component {
               </h1>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={5000}>
             <img src={home3} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
@@ -38,7 +38,7 @@ export default class banner extends Component {
               </h1>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={5000}>
             <img src={home4} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
@@ -47,7 +47,7 @@ export default class banner extends Component {
               </h1>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={5000}>
             <img src={home5} className="banner-image" alt="First slide" />
             <Carousel.Caption>
               <h1 className="banner-text">
