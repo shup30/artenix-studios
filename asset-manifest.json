@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/artenix-studios/static/css/main.65c2d467.chunk.css",
-    "main.js": "/artenix-studios/static/js/main.82051d7a.chunk.js",
-    "main.js.map": "/artenix-studios/static/js/main.82051d7a.chunk.js.map",
+    "main.css": "/artenix-studios/static/css/main.4686c6ae.chunk.css",
+    "main.js": "/artenix-studios/static/js/main.c65d78d0.chunk.js",
+    "main.js.map": "/artenix-studios/static/js/main.c65d78d0.chunk.js.map",
     "runtime-main.js": "/artenix-studios/static/js/runtime-main.d40ad940.js",
     "runtime-main.js.map": "/artenix-studios/static/js/runtime-main.d40ad940.js.map",
     "static/css/2.79c08235.chunk.css": "/artenix-studios/static/css/2.79c08235.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.c54ef692.chunk.js.map": "/artenix-studios/static/js/3.c54ef692.chunk.js.map",
     "index.html": "/artenix-studios/index.html",
     "static/css/2.79c08235.chunk.css.map": "/artenix-studios/static/css/2.79c08235.chunk.css.map",
-    "static/css/main.65c2d467.chunk.css.map": "/artenix-studios/static/css/main.65c2d467.chunk.css.map",
+    "static/css/main.4686c6ae.chunk.css.map": "/artenix-studios/static/css/main.4686c6ae.chunk.css.map",
     "static/js/2.3ca06b35.chunk.js.LICENSE.txt": "/artenix-studios/static/js/2.3ca06b35.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/artenix-studios/static/media/background.67c57a7a.png",
     "static/media/home1.0d8a0cac.png": "/artenix-studios/static/media/home1.0d8a0cac.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.d40ad940.js",
     "static/css/2.79c08235.chunk.css",
     "static/js/2.3ca06b35.chunk.js",
-    "static/css/main.65c2d467.chunk.css",
-    "static/js/main.82051d7a.chunk.js"
+    "static/css/main.4686c6ae.chunk.css",
+    "static/js/main.c65d78d0.chunk.js"
   ]
 }
