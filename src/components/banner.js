@@ -7,6 +7,12 @@ import home4 from "../images/home4.png";
 import home5 from "../images/home5.png";
 
 export default class banner extends Component {
+  componentDidMount() {
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  }
+
   render() {
     return (
       <div>
