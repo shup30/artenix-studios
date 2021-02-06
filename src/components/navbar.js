@@ -11,7 +11,7 @@ import logo from "../images/logo.png";
 export default class navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg bg-light trn" id="tra-nav">
+      <nav className="navbar navbar-expand-lg bg-dark trn" id="tra-nav">
         <div className="container"> 
           <a className="navbar-brand" href="#">
             <img className="artenix-logo" src={logo} alt="artenix-logo" />

@@ -1,10 +1,13 @@
-.trn {
-  background: transparent !important;
-  z-index: 99;
-}
 
-.car {
-  margin-top: -100px;
+@media only screen and (min-width: 768px) {
+  .trn {
+    background: transparent !important;
+    z-index: 99;
+  }
+  
+  .car {
+    margin-top: -8%;
+  }
 }
 
 .navbar {
@@ -12,8 +15,8 @@
     color: #fff !important;
   }
   a:hover {
-   color: #e48632 !important;
-   font-size: 1.009rem!important; 
+    color: #e48632 !important;
+    font-size: 1.009rem !important;
   }
 }
 
