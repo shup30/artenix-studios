@@ -10,7 +10,7 @@ export default class banner extends Component {
   render() {
     return (
       <div>
-        <Carousel>
+        <Carousel className="car">
           <Carousel.Item interval={5000}>
             <img src={home1} className="banner-image" alt="First slide" />
             <Carousel.Caption>
