@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/artenix-studios/static/css/main.ca2daf93.chunk.css",
-    "main.js": "/artenix-studios/static/js/main.1cd32780.chunk.js",
-    "main.js.map": "/artenix-studios/static/js/main.1cd32780.chunk.js.map",
+    "main.js": "/artenix-studios/static/js/main.a3bd0890.chunk.js",
+    "main.js.map": "/artenix-studios/static/js/main.a3bd0890.chunk.js.map",
     "runtime-main.js": "/artenix-studios/static/js/runtime-main.f91af34c.js",
     "runtime-main.js.map": "/artenix-studios/static/js/runtime-main.f91af34c.js.map",
     "static/css/2.79c08235.chunk.css": "/artenix-studios/static/css/2.79c08235.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.79c08235.chunk.css",
     "static/js/2.667283a4.chunk.js",
     "static/css/main.ca2daf93.chunk.css",
-    "static/js/main.1cd32780.chunk.js"
+    "static/js/main.a3bd0890.chunk.js"
   ]
 }
