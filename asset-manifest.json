@@ -1,32 +1,27 @@
 {
   "files": {
-    "main.css": "/artenix-studios/static/css/main.d6b30c94.chunk.css",
-    "main.js": "/artenix-studios/static/js/main.0db8b42f.chunk.js",
-    "main.js.map": "/artenix-studios/static/js/main.0db8b42f.chunk.js.map",
+    "main.css": "/artenix-studios/static/css/main.4a34f8a2.chunk.css",
+    "main.js": "/artenix-studios/static/js/main.1cd32780.chunk.js",
+    "main.js.map": "/artenix-studios/static/js/main.1cd32780.chunk.js.map",
     "runtime-main.js": "/artenix-studios/static/js/runtime-main.f91af34c.js",
     "runtime-main.js.map": "/artenix-studios/static/js/runtime-main.f91af34c.js.map",
     "static/css/2.79c08235.chunk.css": "/artenix-studios/static/css/2.79c08235.chunk.css",
-    "static/js/2.3f09d437.chunk.js": "/artenix-studios/static/js/2.3f09d437.chunk.js",
-    "static/js/2.3f09d437.chunk.js.map": "/artenix-studios/static/js/2.3f09d437.chunk.js.map",
+    "static/js/2.667283a4.chunk.js": "/artenix-studios/static/js/2.667283a4.chunk.js",
+    "static/js/2.667283a4.chunk.js.map": "/artenix-studios/static/js/2.667283a4.chunk.js.map",
     "static/js/3.3f318e30.chunk.js": "/artenix-studios/static/js/3.3f318e30.chunk.js",
     "static/js/3.3f318e30.chunk.js.map": "/artenix-studios/static/js/3.3f318e30.chunk.js.map",
     "index.html": "/artenix-studios/index.html",
     "static/css/2.79c08235.chunk.css.map": "/artenix-studios/static/css/2.79c08235.chunk.css.map",
-    "static/css/main.d6b30c94.chunk.css.map": "/artenix-studios/static/css/main.d6b30c94.chunk.css.map",
-    "static/js/2.3f09d437.chunk.js.LICENSE.txt": "/artenix-studios/static/js/2.3f09d437.chunk.js.LICENSE.txt",
+    "static/css/main.4a34f8a2.chunk.css.map": "/artenix-studios/static/css/main.4a34f8a2.chunk.css.map",
+    "static/js/2.667283a4.chunk.js.LICENSE.txt": "/artenix-studios/static/js/2.667283a4.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/artenix-studios/static/media/background.67c57a7a.png",
-    "static/media/home1.0d8a0cac.png": "/artenix-studios/static/media/home1.0d8a0cac.png",
-    "static/media/home2.46a6b05f.png": "/artenix-studios/static/media/home2.46a6b05f.png",
-    "static/media/home3.07542502.png": "/artenix-studios/static/media/home3.07542502.png",
-    "static/media/home4.c0673a05.png": "/artenix-studios/static/media/home4.c0673a05.png",
-    "static/media/home5.3b567831.png": "/artenix-studios/static/media/home5.3b567831.png",
     "static/media/logo.5c8b26db.png": "/artenix-studios/static/media/logo.5c8b26db.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f91af34c.js",
     "static/css/2.79c08235.chunk.css",
-    "static/js/2.3f09d437.chunk.js",
-    "static/css/main.d6b30c94.chunk.css",
-    "static/js/main.0db8b42f.chunk.js"
+    "static/js/2.667283a4.chunk.js",
+    "static/css/main.4a34f8a2.chunk.css",
+    "static/js/main.1cd32780.chunk.js"
   ]
 }
