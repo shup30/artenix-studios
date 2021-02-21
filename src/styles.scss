@@ -1,22 +1,22 @@
-
 @media only screen and (min-width: 768px) {
   .trn {
     background: transparent !important;
     z-index: 99;
   }
-  
+
   .car {
-    margin-top: -8%;
+    margin-top: -10%;
   }
 }
 
 .navbar {
+  position: sticky !important;
+  top: 0 !important;
   a {
     color: #fff !important;
   }
   a:hover {
     color: #e48632 !important;
-    font-size: 1.009rem !important;
   }
 }
 
@@ -99,10 +99,19 @@
 }
 
 hr {
-  display: block;
-  border-top: 6px solid #e48632;
-  margin: 1em 0;
-  padding: 0;
+  width: 100%;
+  height: 2px !important;
+  background: #e48632;
+  margin: 20px 0;
+  border: none;
+  box-sizing: content-box;
+  overflow: visible;
+}
+
+.animation-element {
+  opacity: 1;
+  position: relative;
+  transition: all 850ms ease;
 }
 
 .about-box {
@@ -132,4 +141,30 @@ hr {
       justify-content: space-between !important;
     }
   }
+}
+
+.carousel-indicators {
+  margin-bottom: 2rem;
+}
+
+.orange-color {
+  color: #e48632;
+}
+
+.about-page-1 {
+  padding-top: 2%;
+}
+
+.about-page-2 {
+  padding-top: 2%;
+  padding-bottom: 20%;
+}
+
+.services-page-1 {
+  padding-top: 2%;
+}
+
+.services-page-2 {
+  padding: 2%;
+  padding-bottom: 20%;
 }

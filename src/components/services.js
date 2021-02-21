@@ -1,20 +1,60 @@
 import React, { Component } from "react";
+import {
+  motion,
+  useViewportScroll,
+  useTransform,
+  useMotionValue,
+} from "framer-motion";
 
-export default class services extends Component {
-  render() {
-    return (
-      <div>
-        <div className="container pt-5">
-          <div className="row">
-            <div className="col-md-2">
-              <h3 className="service-title">Services</h3>
-            </div>
-            <div className="col">
-              <hr />
-            </div>
+export default function Services() {
+  const variants = {
+    hidden: { opacity: 0, y: -30 },
+    visible: { opacity: 5, y: 0 },
+  };
+
+  const { scrollYProgress } = useViewportScroll();
+
+  const line = {
+    hidden: { opacity: 0, x: -30 },
+    visible: { opacity: 5, x: 0 },
+  };
+
+  const x = useMotionValue(0);
+  const opacity = useTransform(x, [-200, 0, 200], [0, 4, 0]);
+
+  return (
+    <div>
+      <div className="container pt-5">
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          transition={{
+            duration: 2,
+          }}
+          variants={variants}
+          className="row"
+          drag="x"
+          dragConstraints={{ left: -100, right: 100 }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.6 }}
+          style={{ pathLength: scrollYProgress, x, opacity }}
+        >
+          {" "}
+          <div className="col-md-2">
+            <h3 className="service-title">Services</h3>
           </div>
-        </div>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={line}
+            className="col"
+          >
+            <hr className="animation-element" />
+          </motion.div>
+        </motion.div>
+      </div>
 
+      <section className="services-page-1">
         <div className="container services-box mt-5">
           <h5>Services We Offer</h5>
           <p>
@@ -52,7 +92,9 @@ export default class services extends Component {
             design, concept art, level concept art.
           </p>{" "}
         </div>
+      </section>
 
+      <section className="services-page-2">
         <div className="container services-box mt-5">
           <h5>Casual Art</h5>
           <p>
@@ -72,7 +114,7 @@ export default class services extends Component {
             experience who understand your vision with ease{" "}
           </p>
         </div>
-      </div>
-    );
-  }
+      </section>
+    </div>
+  );
 }

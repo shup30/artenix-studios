@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   FaFacebook,
   FaTwitter,
@@ -11,11 +12,16 @@ import logo from "../images/logo.png";
 export default class navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg bg-dark trn" id="tra-nav">
-        <div className="container"> 
-          <a className="navbar-brand" href="#">
-            <img className="artenix-logo" src={logo} alt="artenix-logo" />
-          </a>
+      <nav className="navbar navbar-expand-lg bg-dark trn sticky-nav" id="tra-nav">
+        <div className="container">
+          <div
+            className="navbar-brand"
+            onContextMenu={(e) => e.preventDefault()}
+          >
+            <Link to="/">
+              <img className="artenix-logo" src={logo} alt="artenix-logo" />
+            </Link>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -33,52 +39,52 @@ export default class navbar extends Component {
           >
             <ul className="navbar-nav artenix-navbar mr-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <Link className="nav-link" to="/#about">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#services">
+                <Link className="nav-link" to="/#services">
                   Services
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <Link className="nav-link" to="/#contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
             <section id="social-icons">
               <ul className="navbar-nav ml-5 mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" to="#">
                     <FaFacebook />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="#">
                     <FaTwitter />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="#">
                     <FaLinkedin />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="#">
                     <FaPinterest />
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="#">
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </section>
